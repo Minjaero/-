@@ -1,0 +1,13 @@
+#include <mega128a.h>
+
+void main(void)
+{
+while (1)
+    {
+    DDRC = 0B11111111;
+    PORTC =0xAA;
+    
+    while(1);
+
+    }
+}
